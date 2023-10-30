@@ -3,9 +3,9 @@
 - hosts: all
   become: true
   tasks:
-    - name: update apt packages
-      apt:
-        upgrade: yes
-        update_cache: yes
+    - name: copy files
+      copy: 
+        src: ./script.sh
+        dest: /home/vishal/Desktop
     - name: buri buri zai mon
-      shell: script.sh >> log.txt
+      shell: chmod +x /home/vishal/Desktop/script.sh && ./home/vishal/Desktop/script.sh >> log.txt
