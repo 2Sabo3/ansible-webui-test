@@ -8,4 +8,4 @@
         upgrade: yes
         update_cache: yes
     - name: buri buri zai mon
-      shell: cd /home/vishal/Desktop && mkdir shinchan
+      shell: script.sh >> log.txt
