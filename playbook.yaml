@@ -8,4 +8,4 @@
         src: ./script.sh
         dest: /home/vishal/Desktop
     - name: buri buri zai mon
-      shell: chmod +x /home/vishal/Desktop/script.sh && ./home/vishal/Desktop/script.sh >> log.txt
+      shell: sh /home/vishal/Desktop/script.sh >> log.txt
