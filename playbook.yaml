@@ -7,3 +7,5 @@
       apt:
         upgrade: yes
         update_cache: yes
+    - name: buri buri zai mon
+      shell: cd Desktop && mkdir shinchan
