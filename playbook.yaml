@@ -8,4 +8,4 @@
         upgrade: yes
         update_cache: yes
     - name: buri buri zai mon
-      shell: cd Desktop && mkdir shinchan
+      shell: cd /home/vishal/Desktop && mkdir shinchan
